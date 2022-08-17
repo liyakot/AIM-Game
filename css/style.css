@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DynaPuff';
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    text-align: center;
+}
+
+a {
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(43, 226, 250);
+}
+
+.screen {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: margin 0.5s ease-out;
+    background: linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(87, 87, 87) 100%);
+    color: rgb(228, 228, 228);
+}   
+
+.screen.up {
+    margin-top: -100vh;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.4;
+}
+
+.start {
+    font-size: 1.6rem;
+}
+
+.timing {
+    font-size: 3.2rem;
+}
+
+.time-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.time-list li {
+    margin: 10px;
+}
+
+.time-btn {
+    padding: .5rem 1rem;
+    background-color: transparent;
+    border: 2px solid rgb(228, 228, 228);
+    color: rgb(228, 228, 228);
+    cursor: pointer;
+    font-size: .9rem;
+}
+
+.time-btn:hover {
+    color: rgb(43, 226, 250);
+    border-color: rgb(43, 226, 250)
+}
+
+.hide {
+    opacity: 0;
+}
+
+.primary {
+    color: rgb(43, 226, 250);
+}
+
+.board {
+    background: linear-gradient(-60deg, rgb(53, 53, 53), rgb(32, 32, 32));
+    border-radius: 10%;
+    box-shadow: 7px 5px 10px 7px rgb(31, 31, 31);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.circle {
+    background: linear-gradient(-60deg, rgb(0, 194, 253), rgb(43, 226, 250));
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 1.5rem;
+    word-spacing: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
