@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-    color:rgb(43, 226, 250);
+    color: rgb(43, 226, 250);
 }
 
 .screen {
@@ -32,7 +32,7 @@ a:hover {
     transition: margin 0.5s ease-out;
     background: linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(87, 87, 87) 100%);
     color: rgb(228, 228, 228);
-}   
+}
 
 .screen.up {
     margin-top: -100vh;
@@ -43,12 +43,17 @@ h1 {
     line-height: 1.4;
 }
 
-.start {
-    font-size: 1.6rem;
+h2 {
+    font-size: 3rem;
 }
 
-.timing {
-    font-size: 3.2rem;
+h3 {
+    font-size: 1.5rem;
+    word-spacing: 10px;
+}
+
+.start, .again {
+    font-size: 2.1rem;
 }
 
 .time-list {
@@ -69,7 +74,7 @@ h1 {
     border: 2px solid rgb(228, 228, 228);
     color: rgb(228, 228, 228);
     cursor: pointer;
-    font-size: .9rem;
+    font-size: 1rem;
 }
 
 .time-btn:hover {
@@ -96,7 +101,9 @@ h1 {
     align-items: center;
     position: relative;
     width: 450px;
+    max-width: 90vw;
     height: 450px;
+    max-height: 70vh;
 }
 
 .circle {
@@ -106,13 +113,20 @@ h1 {
     cursor: pointer;
 }
 
-h3 {
-    font-size: 1.5rem;
-    word-spacing: 10px;
+.again {
+    margin-bottom: 15px;
 }
 
-h2 {
-    font-size: 3rem;
+@media screen and (max-width: 450px){
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .start, .again {
+        font-size: 1.8rem;
+    }
 }
-
-
