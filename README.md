@@ -23,8 +23,24 @@ There are three screens in the game:
 2. Choose a time
 3. Game board
 
-Changing screens is done by adding the up class to the screen:
+Changing screens is done by adding or remove the *up* class to the *screen*:
 `.screen.up {
     margin-top: -100vh;
 }`
 
+**The game board looks like this:**
+
+<img width="400px" src="/readme_img/game-board.png">
+</br>
+</br>
+
+**How to make a circle appear of random size in random places on the board:**
+
+<img width="400px" src="/readme_img/function.png">
+
+</br>
+</br>
+
+At the end of the game, **the result** is displayed - **the number of hits on circle**, and you can start the game again
+
+<img width="300" src="/readme_img/fihish-game.png">
