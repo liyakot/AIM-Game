@@ -14,7 +14,6 @@ The game is essentially a test of reflexes and speed. The essence of the game is
 
 The game is created with native JS, without any frameworks and libraries. 
 <p><img src="https://img.shields.io/github/languages/top/liyakot/AIM-Game.svg"></p>
-<!--I've learned myself web development without any courses or training, so if you have any comments, I will be happy to chat with you on social networks (see  my <a href="https://github.com/liyakot">profile</a> :fire:)-->
 
 ### How it works
 ___
@@ -31,16 +30,19 @@ Changing screens is done by adding or remove the *up* class to the *screen*:
 **The game board looks like this:**
 
 <img width="400px" src="/readme_img/game-board.png">
-</br>
-</br>
+
 
 **How to make a circle appear of random size in random places on the board:**
 
 <img width="400px" src="/readme_img/function.png">
 
-</br>
-</br>
+
 
 At the end of the game, **the result** is displayed - **the number of hits on circle**, and you can start the game again
 
 <img width="300" src="/readme_img/fihish-game.png">
+
+### Additionally
+___
+
+I've learned myself web development without any courses or training, so if you have any comments, I will be happy to chat with you on social networks (see  my <a href="https://github.com/liyakot">profile</a> :fire:)
