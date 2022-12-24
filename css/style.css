@@ -129,4 +129,9 @@ h3 {
     .start, .again {
         font-size: 1.8rem;
     }
+
+    .screen {
+        justify-content: start;
+        padding-top: 20vh;;
+    }
 }
