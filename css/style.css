@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&display=swap');
 
+:root {
+    --bright: rgb(43, 226, 250)
+}
 * {
     box-sizing: border-box;
 }
@@ -19,7 +22,7 @@ a {
 }
 
 a:hover {
-    color: rgb(43, 226, 250);
+    color: var(--bright);
 }
 
 .screen {
@@ -29,7 +32,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: margin 0.5s ease-out;
+    transition: margin 0.6s ease-out;
     background: linear-gradient(90deg, rgb(37, 37, 37) 0%, rgb(87, 87, 87) 100%);
     color: rgb(228, 228, 228);
 }
@@ -78,8 +81,8 @@ h3 {
 }
 
 .time-btn:hover {
-    color: rgb(43, 226, 250);
-    border-color: rgb(43, 226, 250)
+    color: var(--bright);
+    border-color: var(--bright)
 }
 
 .hide {
@@ -87,7 +90,7 @@ h3 {
 }
 
 .primary {
-    color: rgb(43, 226, 250);
+    color: var(--bright);
 }
 
 .board {
@@ -132,6 +135,10 @@ h3 {
 
     .screen {
         justify-content: start;
-        padding-top: 20vh;;
+        padding-top: 20vh;
+    }
+
+    .screen.last {
+        padding-top: 10vh;
     }
 }

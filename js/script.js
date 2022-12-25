@@ -9,6 +9,7 @@ let score = 0;
 let timerId = 0;
 
 startBtn.addEventListener('click', e => {
+    startBtn.style.color = "var(--bright)";
     e.preventDefault();
     screens[0].classList.add('up')
 })
@@ -57,6 +58,7 @@ function finishGame() {
     board.innerHTML = `<h2>Your score: <span class='primary'>${score}<span></h2>`;
     board.innerHTML += `<a href="#" class="again" id="again">Play again</a>`;
     const againBtn = document.querySelector('#again');
+    againBtn.style.color = "var(--bright)";
     againBtn.addEventListener('click', restart);
 }
 
